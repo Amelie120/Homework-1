@@ -12,3 +12,5 @@
 
 I did it on windows command propmt and ran all those commands
 
+## Question 2
+For this question, the service name for postgres is db and the port that pgAdmin should use is 5432 because in the docker-compose.yaml code you gave us, 5432 is the container port which is where postgres is running and 5433 port is the host port where it is for external acces so we would use 5432.
